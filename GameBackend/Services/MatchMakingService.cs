@@ -30,7 +30,9 @@ namespace GameBackend.Services
 
                     return new MatchResponse
                     {
-                        Matched = true
+                        Matched = true,
+                        MatchId = matchId,
+                        Players=players
                     };
                 }
 
