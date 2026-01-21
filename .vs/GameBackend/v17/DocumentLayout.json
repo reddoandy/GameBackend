@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "E:\\CyberPunkGameBackend\\GameBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|e:\\cyberpunkgamebackend\\gamebackend\\gamebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|solutionrelative:gamebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|e:\\cyberpunkgamebackend\\gamebackend\\gamebackend\\controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|solutionrelative:gamebackend\\controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|e:\\cyberpunkgamebackend\\gamebackend\\gamebackend\\gamebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|solutionrelative:gamebackend\\gamebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|e:\\cyberpunkgamebackend\\gamebackend\\gamebackend\\services\\matchmakingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|solutionrelative:gamebackend\\services\\matchmakingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|e:\\cyberpunkgamebackend\\gamebackend\\gamebackend\\models\\matchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|solutionrelative:gamebackend\\models\\matchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|e:\\cyberpunkgamebackend\\gamebackend\\gamebackend\\models\\matchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B08A8022-7519-4065-B576-AE947490C06C}|GameBackend\\GameBackend.csproj|solutionrelative:gamebackend\\models\\matchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +39,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Program.cs",
+              "RelativeDocumentMoniker": "GameBackend\\Program.cs",
+              "ToolTip": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Program.cs",
+              "RelativeToolTip": "GameBackend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T13:18:08.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatchMakingService.cs",
+              "DocumentMoniker": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Services\\MatchMakingService.cs",
+              "RelativeDocumentMoniker": "GameBackend\\Services\\MatchMakingService.cs",
+              "ToolTip": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Services\\MatchMakingService.cs",
+              "RelativeToolTip": "GameBackend\\Services\\MatchMakingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:28:34.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MatchRequest.cs",
+              "DocumentMoniker": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Models\\MatchRequest.cs",
+              "RelativeDocumentMoniker": "GameBackend\\Models\\MatchRequest.cs",
+              "ToolTip": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Models\\MatchRequest.cs",
+              "RelativeToolTip": "GameBackend\\Models\\MatchRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:25:45.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MatchResponse.cs",
+              "DocumentMoniker": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Models\\MatchResponse.cs",
+              "RelativeDocumentMoniker": "GameBackend\\Models\\MatchResponse.cs",
+              "ToolTip": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Models\\MatchResponse.cs",
+              "RelativeToolTip": "GameBackend\\Models\\MatchResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T12:25:19.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameBackend",
+              "DocumentMoniker": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\GameBackend.csproj",
+              "RelativeDocumentMoniker": "GameBackend\\GameBackend.csproj",
+              "ToolTip": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\GameBackend.csproj",
+              "RelativeToolTip": "GameBackend\\GameBackend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-21T12:23:02.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MatchController.cs",
               "DocumentMoniker": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Controllers\\MatchController.cs",
               "RelativeDocumentMoniker": "GameBackend\\Controllers\\MatchController.cs",
               "ToolTip": "E:\\CyberPunkGameBackend\\GameBackend\\GameBackend\\Controllers\\MatchController.cs",
               "RelativeToolTip": "GameBackend\\Controllers\\MatchController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T16:48:17.336Z",
               "EditorCaption": ""

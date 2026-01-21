@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using GameBackend.Models;
+using GameBackend.Services;
 
 namespace GameBackend.Controllers
 {
@@ -7,6 +9,13 @@ namespace GameBackend.Controllers
     [ApiController]
     public class MatchController : ControllerBase
     {
+
+        private readonly MatchMakingService _matchmaking;
+
+        public MatchController(MatchMakingService matchmaking)
+        {
+            _matchmaking = matchmaking;
+        }
 
         [HttpPost("join")]
         public IActionResult JoinMatch([FromBody] MatchRequest request)
@@ -25,13 +34,19 @@ namespace GameBackend.Controllers
             Console.WriteLine("Ping received");
             return Ok(new { ok = true });
         }
-    }
 
-        public class MatchRequest
-        {
-            public string EosId {  get; set; }
+        [HttpPost("request")]
+        public ActionResult<MatchResponse> RequestMatch([FromBody] MatchRequest request)
+        {    
+            if (string.IsNullOrEmpty(request.EosId))
+            {               
+                return BadRequest("EosId is required");
+            }
+
+            var result = _matchmaking.Enqueue(request.EosId);
+            return Ok(result);
+                
         }
-
-        
+    }
     
-}
+    }

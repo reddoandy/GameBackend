@@ -9,11 +9,53 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "GameBackend.Controllers.MatchRequest",
+        "Type": "GameBackend.Models.MatchRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameBackend.Controllers.MatchController",
+    "Method": "Ping",
+    "RelativePath": "api/Match/ping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameBackend.Controllers.MatchController",
+    "Method": "RequestMatch",
+    "RelativePath": "api/Match/request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GameBackend.Models.MatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GameBackend.Models.MatchResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "GameBackend.Controllers.WeatherForecastController",

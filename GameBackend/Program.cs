@@ -1,3 +1,5 @@
+using GameBackend.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.WebHost.UseUrls("http://0.0.0.0:5140");
+builder.Services.AddSingleton<MatchMakingService>();
 
 var app = builder.Build();
 

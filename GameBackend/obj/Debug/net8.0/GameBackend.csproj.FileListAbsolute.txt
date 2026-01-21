@@ -33,3 +33,4 @@ E:\CyberPunkGameBackend\GameBackend\GameBackend\obj\Debug\net8.0\refint\GameBack
 E:\CyberPunkGameBackend\GameBackend\GameBackend\obj\Debug\net8.0\GameBackend.pdb
 E:\CyberPunkGameBackend\GameBackend\GameBackend\obj\Debug\net8.0\GameBackend.genruntimeconfig.cache
 E:\CyberPunkGameBackend\GameBackend\GameBackend\obj\Debug\net8.0\ref\GameBackend.dll
+E:\CyberPunkGameBackend\GameBackend\GameBackend\obj\Debug\net8.0\GameBackend.sourcelink.json
