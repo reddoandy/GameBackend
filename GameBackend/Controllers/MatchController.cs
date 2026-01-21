@@ -18,11 +18,20 @@ namespace GameBackend.Controllers
                 status = "QUEUED"
             });
         }
+
+        [HttpPost("ping")]
+        public IActionResult Ping([FromBody] object data)
+        {
+            Console.WriteLine("Ping received");
+            return Ok(new { ok = true });
+        }
     }
 
         public class MatchRequest
         {
             public string EosId {  get; set; }
         }
+
+        
     
 }
